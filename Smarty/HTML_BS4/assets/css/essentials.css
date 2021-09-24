@@ -248,7 +248,12 @@ section.dark pre {
 img.img-fluid {
 	display:inline-block;
 }
-
+img.img-fluidnews {
+	display:inline-block;height:180px ; width: 260px;
+}
+img.img-fluid-customers {
+	display:inline-block;height: 100px;length: 100px;
+}
 /* IE & Mozilla fix */
 div.row>div img.img-fluid {
 	width: 100%;
