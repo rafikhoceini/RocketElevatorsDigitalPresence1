@@ -89,7 +89,12 @@ input::-moz-focus-inner {
 	/*-webkit-appearance: none;*//*removed: chrome issue */
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+.hidden{
+	display:none;
+}
+.hide{
+	display:none;
+}
 	::selection {
 		color:#fff;
 		text-shadow:none;
