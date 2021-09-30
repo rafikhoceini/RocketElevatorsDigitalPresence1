@@ -61,6 +61,10 @@ $("#building-type").change(function(e){
     maxOccu.value="";
     busHour.value="";
     elevAmountInput.value="";
+    priceElevator.value="";
+    totalPriceElevator.value="";
+    installationCost.value="";
+    finalPrice.value="";
     
 
 
