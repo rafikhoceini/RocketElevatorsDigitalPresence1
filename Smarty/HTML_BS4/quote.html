@@ -182,67 +182,71 @@
                    </div>
                 </div>
                 
+				
+
                 <br/><br/>
                 <div class="form-group input"  id="number-of-apartments" >
                     <label>Number of apartments </label>
-                    <input id= "numapart" min="0" type="number" name="number-of-apartments" oninput="calculateElevators()">
+                    <input id= "numapar" min="0" type="number" name="number-of-apartments" >
                 </div>
                 
                 <div class="form-group input" id="number-of-floors" >
                     <label>Number of floors </label>
-                    <input id = "numfloo" min="0" type="number" name="number-of-floors" oninput="calculateElevators()">
+                    <input id = "numfloo" min="0" type="number" name="number-of-floors" >
                 </div>
 
                 <div class="form-group input"  id="number-of-basements" >
                     <label>Number of basements </label>
-                    <input id="numbase" min="0" type="number" name="number-of-basements" oninput="calculateElevators()">
+                    <input id="numbase" min="0" type="number" name="number-of-basements" >
                 </div>
 
                 <div class="form-group input"  id="number-of-companies" >
                     <label>Number of companies </label>
-                    <input id= "numcomp" min="0" type="number" name="number-of-companies" oninput="calculateElevators()">
+                    <input id= "numcomp" min="0" type="number" name="number-of-companies" >
                 </div>
 
                 <div class="form-group input"  id="number-of-parking-spots" >
                     <label>Number of parking spots </label>
-                    <input id= "numpark" min="0" type="number" name="number-of-parking-spots" oninput="calculateElevators()">
+                    <input id= "numpark" min="0" type="number" name="number-of-parking-spots" >
                 </div>
 
                 <div class="form-group input"  id="number-of-elevators" >
                     <label>Number of elevators </label>
-                    <input id="numelev" min="0" type="number" name="number-of-elevators" oninput="calculateNumElevatorsCommercial">
+                    <input id="numelev" min="0" type="number" name="number-of-elevators" >
                 </div>
 
                 <div class="form-group input"  id="number-of-corporations" >
                     <label>Number of corporations </label>
-                    <input  id="numcorp" min="0" type="number" name="number-of-corporations" oninput="calculateElevators()">
+                    <input  id="numcorp" min="0" type="number" name="number-of-corporations" >
                 </div>
 
                 <div class="form-group input"  id="maximum-occupancy"  >
-                    <label>Maximum occupancy </label>
-                    <input id= "maxoccu" min="0" type="number" name="maximum-occupancy" oninput="calculateElevators()">
+                    <label>Maximum occupancy per floor </label>
+                    <input id= "maxoccu" min="0" type="number" name="maximum-occupancy" >
                 </div>
                 
                 <div class="form-group input"  id="business-hours" >
                     <label>Business hours </label>
-                    <input id="bushour" min="0" max=24 type="number" name="business-hours" oninput="calculateElevators()">
+                    <input id="bushour" min="0" max=24 type="number" name="business-hours" >
                 </div>
                
                 
                 <div id="elevator-amount">
-                    The number of elevators you need: <input oninput="calculateNumElevatorsCommercial" id="elevator-amount-input" type="number" name="" value="" disabled="" > 
+                    The number of elevators you need: <input  id="elevator-amount-input" type="number" name="" value="" disabled="" > 
                 </div>
+
+				
 
             
                
-                        <div
+                    <div id="selectlux" >
                             <p> <strong>&nbsp&nbspSecond, chose the quality of the elevator below</strong></p>  
-
-                            &nbsp&nbsp<input id="PriceUnitStandard" type="radio" name="qservices" value="standard" onchange="Price()"> Standard <br/>
-                            &nbsp&nbsp<input id="PriceUnitPremium" type="radio" name="qservices" value="premium" onchange="Price()">  Premium <br/>
-                            &nbsp&nbsp<input id="PriceUnitExcelium" type="radio" name="qservices" value="excelium" onchange="Price()">  Excelium <br/>
-
-                        </div>
+						
+                            &nbsp&nbsp<input id="standard" type="radio" name="qservices" value="standard" > Standard <br/>
+                            &nbsp&nbsp<input id="premium" type="radio" name="qservices" value="premium" >  Premium <br/>
+                            &nbsp&nbsp<input id="excelium" type="radio" name="qservices" value="excelium" >  Excelium <br/>
+						
+                    </div>
                 <br/><br/>
 
                 <div>
@@ -256,6 +260,8 @@
                     <br/><br/>
 
                 </div>
+
+
 
             
             
